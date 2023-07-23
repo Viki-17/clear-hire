@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+  gap: 10px;
+}
+.searchbar {
+  padding: 25px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  background-color: #dce2ef;
+}
+.searchIcon {
+  color: white;
+  padding: 20px;
+  background-color: #2c4cfa;
+  border-radius: 10px;
+  margin-left: 2px;
+}
+/* @media (max-width: 1550px) {
+  .container {
+    width: 97%;
+  }
+  .searchbar {
+    padding: 25px;
+  }
+} */

@@ -1,0 +1,45 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+}
+.logo {
+  cursor: pointer;
+  font-weight: 500;
+  & p {
+    font-size: 2rem;
+    & span {
+      color: rgb(54 78 245);
+    }
+  }
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  gap: 30px;
+}
+
+.items span {
+  font-size: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.active,
+.items span:hover {
+  color: rgb(54 78 245);
+  transition: 250ms;
+}
+@media (max-width: 1550px) {
+  .container {
+    width: 92%;
+  }
+  .items span {
+    font-size: 25px;
+  }
+}

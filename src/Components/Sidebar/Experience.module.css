@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  & .itemLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px;
+    & span {
+      margin-left: 10px;
+    }
+  }
+}
+.slider {
+  padding: 20px;
+  margin-top: 10px;
+}
+.icon {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.range {
+  display: none;
+}
+.range.valid {
+  display: block;
+}
